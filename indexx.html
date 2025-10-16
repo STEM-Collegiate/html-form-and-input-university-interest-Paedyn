@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>STEM Collegiate University Visit Registration</title>
+</head>
+<body>
+  <h1>STEM Collegiate University Visit Registration</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Registration Form</title>
+</head>
+<body>
+  <h1>University Visit Registration</h1>
+
+   </fieldset>
+    
+  <form action="/submit" method="post">
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="fname" placeholder="Enter first name" required><br><br>
+
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lname" placeholder="Enter last name" required><br><br>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email address" required><br><br>
+
+     </fieldset>
+    
+    <input type="submit" value="Submit Form">
+    <p>Select universities you want to visit:</p>
+      <input type="checkbox" name="universities[]" value="alberta" /> University of Alberta</label>
+      <label><input type="checkbox" name="universities[]" value="calgary" /> University of Calgary</label>
+    <input type="checkbox" name="universities" value="toronto" /> University of Toronto</label>
+     <input type="checkbox" name="universities" value="british" /> University of British Columbia</label>
+
+ </fieldset>
+    
+      <p>Preferred Session:</p>
+      <label><input type="radio" name="sessionFormat" value="inperson" /> In-person Presentation</label>
+      <label><input type="radio" name="sessionFormat" value="virtual" /> Virtual Q&amp;A</label>
+ 
+    </fieldset>
+    
+      <label for="interest">Interest Level:</label>
+      <input type="range" id="interest" name="interest" min="0" max="100" value="1" />
+    </fieldset>
+          <label for="date">Available Date:</label>
+      <input type="date" id="date" name="date" />
+ </fieldset>
+    
+      <label for="time">Preferred Time:</label>
+      <input type="time" id="time" name="time" />
+
+      <label for="color">Badge Color:</label>
+      <input type="color" id="color" name="color" value="#" />
+    </fieldset>
+    
+     </fieldset>
+    
+ <legend>Confirmation</legend>
+
+      <label>
+        <input type="checkbox" id="agree" name="agree" required />
+        I agree to follow event guidelines and attend registered sessions.
+      </label>
+
+      <button type="submit">Submit Registration</button>
+    </fieldset>
+
+
+  </form>
+</body>
+</html>
